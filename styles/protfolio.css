@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-title {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.nav-text {
+    color: coral;
+
+}
+
+.btn-primary {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 2px 2px;
+}
+/*div styles*/
+.header{
+    background-color: antiquewhite;
+    background-image: url('../prot-images/header_bg.png'), url('../prot-images/developer.png');
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+
+}
+.div-ban {
+    display: flex;
+    margin: 10px 200px;
+    align-items: center;
+}
+
+.div-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 0px;
+}
+
+.div-subtitle {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.div-descrip {
+    margin-bottom: 10px;
+    color: rgba(50, 212, 212, 0.992);
+    font-size: 18px;
+}
+/* Main style*/
+main{
+    margin: 0 auto;
+    max-width: 1140;
+}
+/*section style about me*/
+.about-sec{
+    margin-top: 100px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.sec-title{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.sec-descrip{
+    font-size: 18px;
+    color: rgb(17, 47, 37);
+    margin-bottom: 30px;
+}
