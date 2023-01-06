@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 5px;
     font-family: 'Open Sans', sans-serif;
 }
 /* nav style */
@@ -78,19 +78,122 @@ main{
 }
 /*section style about me*/
 .about-sec{
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 130px 150px;
-
+    padding: 150px 150px;
+    text-align: center;
 }
 .sec-title{
-    text-align: center;
     margin-bottom: 30px;
-
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 .sec-descrip{
     font-size: 18px;
     color: rgb(17, 47, 37);
     margin-bottom: 30px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.ifo-title{
+    font-size: 20px;
+    color: rgb(33, 206, 206);
+}
+.info-descrip{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(49, 11, 84);
+}
+.what{
+    background-color: beige;
+    margin: 20px 30px;
+}
+.what-title{
+     text-align: center;
+     margin-top: 130px;
+     font-size: 35px;
+    font-weight: 700;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background-color: azure;
+    box-shadow: 0px 6px 50px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+     font-weight: 700;
+     font-size: 20px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+.skill-descrip{
+  font-size: 16px;
+  color: rgb(16, 50, 38);
+
+}
+.resume{
+ margin-top: 130px;
+}
+.re-title{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.re-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.reitem-one{
+    color: rgb(13, 131, 234);
+    font-weight: 700;
+    font-size: 25px;
+     margin-bottom: 10px;
+}
+.reitem-two{
+    color: rgb(102, 173, 236);
+    font-weight: 600;
+    font-size: 20px;
+}
+.re-des{
+      color: rgb(159, 192, 220);
+      margin-top: 20px;
+}
+.re-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    background-color: rgb(193, 213, 207);
+    gap: 100px;
+    padding: 130px 200px;
+}
+.connect1{
+    text-align: left;
+}
+.con-form input, textarea{   
+    margin-bottom: 24px;
+    border: 0;
+    padding-left: 18px 30px;
+    width: 100%;
+
+}
+input{
+    height: 50px;
+}
+.contact a{
+    text-decoration: none;
 }
